@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/PKZ352",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -144.0209543,
+                    57.053230900000003
+                ],
+                [
+                    -144.0209543,
+                    57.053228100000005
+                ],
+                [
+                    -144.0209543,
+                    55.015585100000003
+                ],
+                [
+                    -145.5946318,
+                    55.018562800000005
+                ],
+                [
+                    -152.69932650000001,
+                    55.004577200000007
+                ],
+                [
+                    -152.6950271,
+                    54.99898790000001
+                ],
+                [
+                    -154.1271184,
+                    55.004762500000012
+                ],
+                [
+                    -154.12682580000001,
+                    55.005178300000011
+                ],
+                [
+                    -153.0106796,
+                    55.414784900000008
+                ],
+                [
+                    -152.0359454,
+                    55.97912500000001
+                ],
+                [
+                    -151.1399806,
+                    56.64588950000001
+                ],
+                [
+                    -150.5965885,
+                    57.054679900000011
+                ],
+                [
+                    -150.5921463,
+                    57.05323090000001
+                ],
+                [
+                    -144.0209543,
+                    57.053230900000003
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/PKZ352",
+        "@type": "wx:Zone",
+        "id": "PKZ352",
+        "type": "offshore",
+        "name": "Gulf of Alaska Offshore South of 57N North of 55N and West of 144W",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "AFC"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/AFC"
+        ],
+        "timeZone": [
+            "America/Anchorage"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

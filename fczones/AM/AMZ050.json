@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/AMZ050",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -64.784914999999998,
+                    17
+                ],
+                [
+                    -64.150999999999996,
+                    17
+                ],
+                [
+                    -63.999999999999993,
+                    17
+                ],
+                [
+                    -63.999999999999993,
+                    15
+                ],
+                [
+                    -68,
+                    15
+                ],
+                [
+                    -68,
+                    17
+                ],
+                [
+                    -67.373999999999995,
+                    17
+                ],
+                [
+                    -67.3585013,
+                    17.0002675
+                ],
+                [
+                    -67.281000000000006,
+                    17
+                ],
+                [
+                    -64.784914999999998,
+                    17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/AMZ050",
+        "@type": "wx:Zone",
+        "id": "AMZ050",
+        "type": "offshore",
+        "name": "Caribbean N of 15N between 64W and 68W",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "NH2"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/NH2"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

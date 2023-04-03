@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/GMZ055",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.285243100000002,
+                    24.5093642
+                ],
+                [
+                    -82.679371500000002,
+                    24.4232148
+                ],
+                [
+                    -82.474199800000008,
+                    24.437129599999999
+                ],
+                [
+                    -82.469211400000006,
+                    24.181159099999999
+                ],
+                [
+                    -82.794935500000008,
+                    24.178466
+                ],
+                [
+                    -83.28758710000001,
+                    24.225772200000002
+                ],
+                [
+                    -83.288632200000009,
+                    24.3196659
+                ],
+                [
+                    -83.286000000000016,
+                    24.5
+                ],
+                [
+                    -83.285243100000002,
+                    24.5093642
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/GMZ055",
+        "@type": "wx:Zone",
+        "id": "GMZ055",
+        "type": "coastal",
+        "name": "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas out 20 NM",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "KEY"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/KEY"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

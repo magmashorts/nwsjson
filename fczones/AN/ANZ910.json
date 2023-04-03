@@ -1,0 +1,63 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/ANZ910",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -65.748150600000002,
+                    39.007992899999998
+                ],
+                [
+                    -67.021891699999998,
+                    37.782853699999997
+                ],
+                [
+                    -68.717662300000001,
+                    37.1038438
+                ],
+                [
+                    -68.997529700000001,
+                    37.065977500000002
+                ],
+                [
+                    -69.000589200000007,
+                    38.505317300000002
+                ],
+                [
+                    -69.001663800000003,
+                    39.0108216
+                ],
+                [
+                    -65.748150600000002,
+                    39.007992899999998
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/ANZ910",
+        "@type": "wx:Zone",
+        "id": "ANZ910",
+        "type": "offshore",
+        "name": "East of 69W and south of 39N to 250 NM offshore",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "ONA"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/ONA"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

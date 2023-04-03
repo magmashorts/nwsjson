@@ -1,0 +1,139 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/SDZ074",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -103.0851974,
+                    43.856712299999998
+                ],
+                [
+                    -103.0848999,
+                    43.8541107
+                ],
+                [
+                    -103.11219779999999,
+                    43.730010899999996
+                ],
+                [
+                    -103.1741943,
+                    43.551410599999997
+                ],
+                [
+                    -103.22109979999999,
+                    43.480010899999996
+                ],
+                [
+                    -103.22239679999998,
+                    43.4774131
+                ],
+                [
+                    -103.22439569999999,
+                    43.477111800000003
+                ],
+                [
+                    -103.24389639999998,
+                    43.477111800000003
+                ],
+                [
+                    -103.25049589999998,
+                    43.4774131
+                ],
+                [
+                    -103.30909719999998,
+                    43.477611500000002
+                ],
+                [
+                    -103.32509609999998,
+                    43.477813699999999
+                ],
+                [
+                    -103.35559839999998,
+                    43.477813699999999
+                ],
+                [
+                    -103.37019339999998,
+                    43.477611500000002
+                ],
+                [
+                    -103.45339959999998,
+                    43.477611500000002
+                ],
+                [
+                    -103.39749899999998,
+                    43.544013900000003
+                ],
+                [
+                    -103.34790029999998,
+                    43.697811100000003
+                ],
+                [
+                    -103.31809989999998,
+                    43.799510900000001
+                ],
+                [
+                    -103.31979369999998,
+                    43.856311699999999
+                ],
+                [
+                    -103.27230069999997,
+                    43.8564109
+                ],
+                [
+                    -103.25049589999998,
+                    43.856613099999997
+                ],
+                [
+                    -103.09659569999998,
+                    43.856811499999999
+                ],
+                [
+                    -103.0851974,
+                    43.856712299999998
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/SDZ074",
+        "@type": "wx:Zone",
+        "id": "SDZ074",
+        "type": "public",
+        "name": "Hermosa Foot Hills",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "SD",
+        "cwa": [
+            "UNR"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/UNR"
+        ],
+        "timeZone": [
+            "America/Denver"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/KRAP",
+            "https://api.weather.gov/stations/K2WX",
+            "https://api.weather.gov/stations/K9V9",
+            "https://api.weather.gov/stations/KCDR",
+            "https://api.weather.gov/stations/KCUT",
+            "https://api.weather.gov/stations/KD07",
+            "https://api.weather.gov/stations/KECS",
+            "https://api.weather.gov/stations/KGCC",
+            "https://api.weather.gov/stations/KHEI",
+            "https://api.weather.gov/stations/KIEN",
+            "https://api.weather.gov/stations/KPHP",
+            "https://api.weather.gov/stations/KPIR",
+            "https://api.weather.gov/stations/KRCA",
+            "https://api.weather.gov/stations/KVTN",
+            "https://api.weather.gov/stations/KW43"
+        ],
+        "radarStation": "UDX"
+    }
+}

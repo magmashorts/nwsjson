@@ -1,0 +1,87 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/ANZ925",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -70.276593099999999,
+                    34.782916899999996
+                ],
+                [
+                    -70.8035517,
+                    33.861358299999999
+                ],
+                [
+                    -73.811768799999996,
+                    35.548045299999998
+                ],
+                [
+                    -73.811763499999998,
+                    35.548779400000001
+                ],
+                [
+                    -73.809786000000003,
+                    35.821445199999999
+                ],
+                [
+                    -73.929879700000001,
+                    36.299415199999999
+                ],
+                [
+                    -74.134397199999995,
+                    36.711501900000002
+                ],
+                [
+                    -73.935826599999999,
+                    36.990754700000004
+                ],
+                [
+                    -73.740323000000004,
+                    37.275349800000001
+                ],
+                [
+                    -73.575778999999997,
+                    37.6087591
+                ],
+                [
+                    -73.519205099999994,
+                    37.987640300000002
+                ],
+                [
+                    -70.22595419999999,
+                    36.482854100000004
+                ],
+                [
+                    -70.276593099999999,
+                    34.782916899999996
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/ANZ925",
+        "@type": "wx:Zone",
+        "id": "ANZ925",
+        "type": "offshore",
+        "name": "Baltimore Canyon to Hatteras Canyon between 100 NM and 250 NM offshore",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "ONA"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/ONA"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

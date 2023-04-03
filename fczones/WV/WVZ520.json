@@ -1,0 +1,133 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/WVZ520",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.7119979,
+                    38.079113
+                ],
+                [
+                    -80.746696400000005,
+                    38.085712399999998
+                ],
+                [
+                    -80.754196100000001,
+                    38.086914
+                ],
+                [
+                    -80.867797800000005,
+                    38.101810399999998
+                ],
+                [
+                    -80.874794000000009,
+                    38.102611499999995
+                ],
+                [
+                    -80.881599400000013,
+                    38.103111199999994
+                ],
+                [
+                    -80.880393900000016,
+                    38.105010899999996
+                ],
+                [
+                    -80.54615680000002,
+                    38.325326799999999
+                ],
+                [
+                    -80.499794000000023,
+                    38.300910899999998
+                ],
+                [
+                    -80.497093200000023,
+                    38.299713099999998
+                ],
+                [
+                    -80.436492900000019,
+                    38.267310999999999
+                ],
+                [
+                    -80.459899900000025,
+                    38.249713800000002
+                ],
+                [
+                    -80.525596600000029,
+                    38.203411100000004
+                ],
+                [
+                    -80.572898800000033,
+                    38.171813900000004
+                ],
+                [
+                    -80.593696500000036,
+                    38.157310400000007
+                ],
+                [
+                    -80.604194600000042,
+                    38.150211300000009
+                ],
+                [
+                    -80.630798300000038,
+                    38.13261030000001
+                ],
+                [
+                    -80.635894700000037,
+                    38.129013000000008
+                ],
+                [
+                    -80.671997000000033,
+                    38.104610400000006
+                ],
+                [
+                    -80.690696700000032,
+                    38.091613700000003
+                ],
+                [
+                    -80.7119979,
+                    38.079113
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/WVZ520",
+        "@type": "wx:Zone",
+        "id": "WVZ520",
+        "type": "public",
+        "name": "Southeast Nicholas",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "WV",
+        "cwa": [
+            "RLX"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/RLX"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/KLWB",
+            "https://api.weather.gov/stations/KBCB",
+            "https://api.weather.gov/stations/KBKW",
+            "https://api.weather.gov/stations/KBLF",
+            "https://api.weather.gov/stations/KCKB",
+            "https://api.weather.gov/stations/KCRW",
+            "https://api.weather.gov/stations/KEKN",
+            "https://api.weather.gov/stations/KHSP",
+            "https://api.weather.gov/stations/KHTS",
+            "https://api.weather.gov/stations/KI16",
+            "https://api.weather.gov/stations/KMGW",
+            "https://api.weather.gov/stations/KROA",
+            "https://api.weather.gov/stations/KW22"
+        ],
+        "radarStation": "RLX"
+    }
+}

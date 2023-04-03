@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/AMZ079",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -60,
+                    25
+                ],
+                [
+                    -60,
+                    27
+                ],
+                [
+                    -55,
+                    27
+                ],
+                [
+                    -55,
+                    25
+                ],
+                [
+                    -60,
+                    25
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/AMZ079",
+        "@type": "wx:Zone",
+        "id": "AMZ079",
+        "type": "offshore",
+        "name": "Atlantic from 25N to 27N between 55W and 60W",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "NH2"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/NH2"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

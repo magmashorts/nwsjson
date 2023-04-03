@@ -1,0 +1,55 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/PKZ412",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -170.99904319999999,
+                    56.044541099999996
+                ],
+                [
+                    -180,
+                    56.044541099999996
+                ],
+                [
+                    -180,
+                    59
+                ],
+                [
+                    -170.99904319999999,
+                    59
+                ],
+                [
+                    -170.99904319999999,
+                    56.044541099999996
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/PKZ412",
+        "@type": "wx:Zone",
+        "id": "PKZ412",
+        "type": "offshore",
+        "name": "Bering Sea Offshore 171W to 180 and North of 56N",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "AFC"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/AFC"
+        ],
+        "timeZone": [
+            "America/Anchorage"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

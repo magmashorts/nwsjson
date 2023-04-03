@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/ANZ920",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -69.996934999999993,
+                    36.930757
+                ],
+                [
+                    -70.22595419999999,
+                    36.482854099999997
+                ],
+                [
+                    -73.519205099999994,
+                    37.987640299999995
+                ],
+                [
+                    -73.516840799999997,
+                    38.003474399999995
+                ],
+                [
+                    -73.076307700000001,
+                    38.504851399999993
+                ],
+                [
+                    -69.004040200000006,
+                    38.50545009999999
+                ],
+                [
+                    -69.000589200000007,
+                    38.505317299999987
+                ],
+                [
+                    -68.997529700000001,
+                    37.065977499999988
+                ],
+                [
+                    -69.996934999999993,
+                    36.930757
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/ANZ920",
+        "@type": "wx:Zone",
+        "id": "ANZ920",
+        "type": "offshore",
+        "name": "Baltimore Canyon to 69W east of 1000 FM and south of 38.5N to 250 NM offshore",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "ONA"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/ONA"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

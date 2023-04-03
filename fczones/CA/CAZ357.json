@@ -1,0 +1,81 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/CAZ357",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -119.28683820000001,
+                    34.388207399999999
+                ],
+                [
+                    -119.30979910000001,
+                    34.356712299999998
+                ],
+                [
+                    -119.31488490000001,
+                    34.358547699999995
+                ],
+                [
+                    -119.3048301,
+                    34.424600799999993
+                ],
+                [
+                    -119.2649241,
+                    34.432403799999996
+                ],
+                [
+                    -119.2611081,
+                    34.440557799999993
+                ],
+                [
+                    -119.2818261,
+                    34.46213079999999
+                ],
+                [
+                    -119.2063194,
+                    34.465997899999991
+                ],
+                [
+                    -119.1842844,
+                    34.44812499999999
+                ],
+                [
+                    -119.2291261,
+                    34.437661999999989
+                ],
+                [
+                    -119.28683820000001,
+                    34.388207399999999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/CAZ357",
+        "@type": "wx:Zone",
+        "id": "CAZ357",
+        "type": "public",
+        "name": "Ojai Valley",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "CA",
+        "cwa": [
+            "LOX"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/LOX"
+        ],
+        "timeZone": [
+            "America/Los_Angeles"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/OJAC1"
+        ],
+        "radarStation": null
+    }
+}

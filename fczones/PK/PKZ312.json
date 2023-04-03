@@ -1,0 +1,71 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/PKZ312",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -138.63794799999999,
+                    57.046490499999997
+                ],
+                [
+                    -137.99303259999999,
+                    56.595016599999994
+                ],
+                [
+                    -137.62157159999998,
+                    56.370623699999996
+                ],
+                [
+                    -136.99808159999998,
+                    55.998799399999996
+                ],
+                [
+                    -136.20452659999998,
+                    55.109931399999994
+                ],
+                [
+                    -136.10816279999997,
+                    55.000612499999995
+                ],
+                [
+                    -144.02095429999997,
+                    55.015585099999996
+                ],
+                [
+                    -144.02095429999997,
+                    57.053228099999998
+                ],
+                [
+                    -138.63794799999999,
+                    57.046490499999997
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/PKZ312",
+        "@type": "wx:Zone",
+        "id": "PKZ312",
+        "type": "offshore",
+        "name": "Gulf of Alaska South of 57 Degrees North and East of 144 W",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "AJK"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/AJK"
+        ],
+        "timeZone": [
+            "America/Anchorage"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

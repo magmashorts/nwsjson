@@ -1,3 +1,6 @@
 NWS JSON
 
 These are JSON files from the National Weather Service
+
+county/(state ini)/ - JSON files with coordinate data for each county or equivlant subdivision.
+fczones/(state ini)/ - JSON files with doordinate data for each forecast zone used by the NWS.

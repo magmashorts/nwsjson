@@ -1,0 +1,79 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/AMZ723",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -64,
+                    17
+                ],
+                [
+                    -64.150999999999996,
+                    17
+                ],
+                [
+                    -64.784914999999998,
+                    17
+                ],
+                [
+                    -64.416988000000003,
+                    18.265007000000001
+                ],
+                [
+                    -64.357609800000006,
+                    18.469053500000001
+                ],
+                [
+                    -64.3474456,
+                    18.503981500000002
+                ],
+                [
+                    -64.346991000000003,
+                    18.5039756
+                ],
+                [
+                    -64.2981166,
+                    18.669176100000001
+                ],
+                [
+                    -64,
+                    18.669632500000002
+                ],
+                [
+                    -64,
+                    18.500000000000004
+                ],
+                [
+                    -64,
+                    17
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/AMZ723",
+        "@type": "wx:Zone",
+        "id": "AMZ723",
+        "type": "coastal",
+        "name": "Anegada Passage east of Virgin Gorda and Saint Croix south to 17N",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "SJU"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/SJU"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

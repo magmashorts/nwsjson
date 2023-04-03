@@ -1,0 +1,91 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/WVZ510",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -79.682583500000007,
+                    39.720897700000002
+                ],
+                [
+                    -79.871237500000007,
+                    39.492993300000002
+                ],
+                [
+                    -79.882800800000012,
+                    39.447061300000001
+                ],
+                [
+                    -79.889867300000006,
+                    39.435819200000005
+                ],
+                [
+                    -79.894798200000011,
+                    39.435710900000004
+                ],
+                [
+                    -79.938194200000012,
+                    39.452213200000003
+                ],
+                [
+                    -79.953292800000014,
+                    39.457710200000001
+                ],
+                [
+                    -79.891152100000014,
+                    39.585178599999999
+                ],
+                [
+                    -79.865455900000015,
+                    39.592566300000001
+                ],
+                [
+                    -79.78454170000002,
+                    39.720813700000001
+                ],
+                [
+                    -79.747795100000019,
+                    39.720813700000001
+                ],
+                [
+                    -79.720298700000015,
+                    39.721012100000003
+                ],
+                [
+                    -79.682583500000007,
+                    39.720897700000002
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/WVZ510",
+        "@type": "wx:Zone",
+        "id": "WVZ510",
+        "type": "public",
+        "name": "Ridges of Eastern Monongalia and Northwestern Preston",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "WV",
+        "cwa": [
+            "PBZ"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/PBZ"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/KMGW",
+            "https://api.weather.gov/stations/KCKB",
+            "https://api.weather.gov/stations/KEKN"
+        ],
+        "radarStation": "PBZ"
+    }
+}

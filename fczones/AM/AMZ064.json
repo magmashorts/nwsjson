@@ -1,0 +1,59 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/AMZ064",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -77,
+                    29
+                ],
+                [
+                    -76.999575399999998,
+                    31.007514
+                ],
+                [
+                    -74.000564400000002,
+                    31.007514
+                ],
+                [
+                    -74,
+                    31
+                ],
+                [
+                    -74,
+                    29
+                ],
+                [
+                    -77,
+                    29
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/AMZ064",
+        "@type": "wx:Zone",
+        "id": "AMZ064",
+        "type": "offshore",
+        "name": "Atlantic from 29N to 31N between 74W and 77W",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "NH2"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/NH2"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

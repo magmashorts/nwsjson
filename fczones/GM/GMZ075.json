@@ -1,0 +1,83 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/GMZ075",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -83.287587099999996,
+                    24.225772200000002
+                ],
+                [
+                    -82.794935499999994,
+                    24.178466
+                ],
+                [
+                    -82.469211399999992,
+                    24.181159099999999
+                ],
+                [
+                    -82.457446099999999,
+                    23.5700276
+                ],
+                [
+                    -82.636221800000001,
+                    23.5805224
+                ],
+                [
+                    -82.907828199999997,
+                    23.6107005
+                ],
+                [
+                    -83.103987599999996,
+                    23.662004400000001
+                ],
+                [
+                    -83.200558599999994,
+                    23.746503799999999
+                ],
+                [
+                    -83.23677339999999,
+                    23.827985699999999
+                ],
+                [
+                    -83.269968899999995,
+                    23.9818973
+                ],
+                [
+                    -83.286370099999999,
+                    24.1161289
+                ],
+                [
+                    -83.287587099999996,
+                    24.225772200000002
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/GMZ075",
+        "@type": "wx:Zone",
+        "id": "GMZ075",
+        "type": "coastal",
+        "name": "Straits of Florida from Halfmoon Shoal to 20 NM west of Dry Tortugas 20 to 60 NM out",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": null,
+        "cwa": [
+            "KEY"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/KEY"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

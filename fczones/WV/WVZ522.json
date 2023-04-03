@@ -1,0 +1,148 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/WVZ522",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -80.330200099999999,
+                    38.3358116
+                ],
+                [
+                    -80.352195699999996,
+                    38.345314000000002
+                ],
+                [
+                    -80.358596800000001,
+                    38.250110599999999
+                ],
+                [
+                    -80.359298699999997,
+                    38.235813100000001
+                ],
+                [
+                    -80.360099699999992,
+                    38.225811
+                ],
+                [
+                    -80.382194499999997,
+                    38.238113400000003
+                ],
+                [
+                    -80.400199799999996,
+                    38.2479133
+                ],
+                [
+                    -80.43649289999999,
+                    38.267310999999999
+                ],
+                [
+                    -80.497093199999995,
+                    38.299713099999998
+                ],
+                [
+                    -80.499793999999994,
+                    38.300910899999998
+                ],
+                [
+                    -80.546156799999991,
+                    38.325326799999999
+                ],
+                [
+                    -80.319999899999985,
+                    38.519999999999996
+                ],
+                [
+                    -80.253504399999983,
+                    38.647997199999999
+                ],
+                [
+                    -80.193694999999977,
+                    38.542812300000001
+                ],
+                [
+                    -80.184097199999982,
+                    38.525413499999999
+                ],
+                [
+                    -80.185394199999976,
+                    38.521911599999996
+                ],
+                [
+                    -80.230697599999971,
+                    38.420711499999996
+                ],
+                [
+                    -80.245498599999976,
+                    38.388412399999993
+                ],
+                [
+                    -80.24979399999998,
+                    38.386012999999991
+                ],
+                [
+                    -80.255798299999981,
+                    38.381912199999988
+                ],
+                [
+                    -80.258094699999987,
+                    38.380813499999988
+                ],
+                [
+                    -80.268196099999983,
+                    38.374713799999988
+                ],
+                [
+                    -80.270294099999987,
+                    38.373111699999988
+                ],
+                [
+                    -80.27339929999998,
+                    38.371311099999986
+                ],
+                [
+                    -80.330200099999999,
+                    38.3358116
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/WVZ522",
+        "@type": "wx:Zone",
+        "id": "WVZ522",
+        "type": "public",
+        "name": "Southeast Webster",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "WV",
+        "cwa": [
+            "RLX"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/RLX"
+        ],
+        "timeZone": [
+            "America/New_York"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/KEKN",
+            "https://api.weather.gov/stations/KBCB",
+            "https://api.weather.gov/stations/KBKW",
+            "https://api.weather.gov/stations/KCKB",
+            "https://api.weather.gov/stations/KCRW",
+            "https://api.weather.gov/stations/KHSP",
+            "https://api.weather.gov/stations/KLWB",
+            "https://api.weather.gov/stations/KMGW",
+            "https://api.weather.gov/stations/KPKB",
+            "https://api.weather.gov/stations/KROA",
+            "https://api.weather.gov/stations/KW22",
+            "https://api.weather.gov/stations/KW99"
+        ],
+        "radarStation": "RLX"
+    }
+}

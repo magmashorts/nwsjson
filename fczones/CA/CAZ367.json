@@ -1,0 +1,75 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/CAZ367",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -118.3186814,
+                    33.768774000000001
+                ],
+                [
+                    -118.3133704,
+                    33.727467699999998
+                ],
+                [
+                    -118.3368765,
+                    33.730934399999995
+                ],
+                [
+                    -118.35802080000001,
+                    33.745461999999996
+                ],
+                [
+                    -118.4025671,
+                    33.747085599999998
+                ],
+                [
+                    -118.4104863,
+                    33.775454699999997
+                ],
+                [
+                    -118.40818830000001,
+                    33.785561699999995
+                ],
+                [
+                    -118.4000628,
+                    33.795646099999992
+                ],
+                [
+                    -118.36567580000001,
+                    33.798517299999993
+                ],
+                [
+                    -118.3186814,
+                    33.768774000000001
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/CAZ367",
+        "@type": "wx:Zone",
+        "id": "CAZ367",
+        "type": "public",
+        "name": "Palos Verdes Hills",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "CA",
+        "cwa": [
+            "LOX"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/LOX"
+        ],
+        "timeZone": [
+            "America/Los_Angeles"
+        ],
+        "observationStations": [],
+        "radarStation": null
+    }
+}

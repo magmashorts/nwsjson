@@ -1,0 +1,107 @@
+{
+    "@context": {
+        "@version": "1.1"
+    },
+    "id": "https://api.weather.gov/zones/forecast/AZZ543",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -111.9779102,
+                    33.456859600000001
+                ],
+                [
+                    -111.97772209999999,
+                    33.436889600000001
+                ],
+                [
+                    -111.9783509,
+                    33.381942899999999
+                ],
+                [
+                    -112.01167149999999,
+                    33.375091699999999
+                ],
+                [
+                    -112.032343,
+                    33.372414800000001
+                ],
+                [
+                    -112.05688119999999,
+                    33.365871200000001
+                ],
+                [
+                    -112.0747272,
+                    33.361855900000002
+                ],
+                [
+                    -112.090045,
+                    33.360814900000001
+                ],
+                [
+                    -112.10655250000001,
+                    33.354866200000004
+                ],
+                [
+                    -112.1190888,
+                    33.351028700000001
+                ],
+                [
+                    -112.1170984,
+                    33.466052699999999
+                ],
+                [
+                    -112.1170043,
+                    33.509704499999998
+                ],
+                [
+                    -112.04321280000001,
+                    33.509277300000001
+                ],
+                [
+                    -112.01287840000001,
+                    33.484313900000004
+                ],
+                [
+                    -111.9779102,
+                    33.456859600000001
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/zones/forecast/AZZ543",
+        "@type": "wx:Zone",
+        "id": "AZZ543",
+        "type": "public",
+        "name": "Central Phoenix",
+        "effectiveDate": "2023-03-08T21:00:00+00:00",
+        "expirationDate": "2200-01-01T00:00:00+00:00",
+        "state": "AZ",
+        "cwa": [
+            "PSR"
+        ],
+        "forecastOffices": [
+            "https://api.weather.gov/offices/PSR"
+        ],
+        "timeZone": [
+            "America/Phoenix"
+        ],
+        "observationStations": [
+            "https://api.weather.gov/stations/A1351",
+            "https://api.weather.gov/stations/KCHD",
+            "https://api.weather.gov/stations/KDVT",
+            "https://api.weather.gov/stations/KFFZ",
+            "https://api.weather.gov/stations/KGEU",
+            "https://api.weather.gov/stations/KGYR",
+            "https://api.weather.gov/stations/KIWA",
+            "https://api.weather.gov/stations/KLUF",
+            "https://api.weather.gov/stations/KPHX",
+            "https://api.weather.gov/stations/KSDL",
+            "https://api.weather.gov/stations/MADC"
+        ],
+        "radarStation": null
+    }
+}
